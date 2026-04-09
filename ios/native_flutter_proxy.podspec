@@ -13,7 +13,7 @@ device proxy info.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'native_flutter_proxy/Sources/native_flutter_proxy/**/*.{h,m,swift}'
   s.dependency 'Flutter'
   s.frameworks = 'SystemConfiguration'
   s.weak_frameworks = 'Network'
